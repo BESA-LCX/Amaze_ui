@@ -38,10 +38,16 @@
        list-style: none;
       float: left;
        margin-left: 10px;
+       padding: 0;
+       margin-top: 10px;
 
      }
      .g{
-       width: 100%;
+       width: 90%;
+       margin: auto;
+       
+       padding: 0;
+       
       
      }
      .am-gallery-item{
@@ -62,9 +68,37 @@
       margin: 0;
       padding: 0;
     }
-    
-     
-     
+    @media screen and(max-width: 1400px) and (min-width: 768px) {
+      .am-gallery-item img{
+        width: 200px;
+        height: 270px;
+      }
+      
+    }
+   @media screen and (max-width: 786px) and (min-width: 372px) {
+    .am-slides img{
+      height: 300px;
+    }
+  
+    .am-gallery-item img{
+     width: 140px;
+     height: 210px;
+    }
+   }
+   @media screen and (max-width: 372px) and (min-width: 160px) {
+    .am-gallery-item img{
+    width: 120px;
+    height: 190px;
+    }
+    .g{
+      width: 100%;
+      justify-content: space-between;
+    }
+    .am-slides img{
+      height: 200px;
+    }
+  
+   }
 
      
   </style>
@@ -73,19 +107,19 @@
   <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{"animation":"slide","slideshow":false}' >
     <ul class="am-slides">
         <li>
-          <img src="https://s3.ax1x.com/2020/12/25/rWslEd.jpg" height="350">
+          <img src="img/banner2-1.jpg" height="350">
           <div class="am-slider-desc">这是标题标题标题标题标题标题标题0</div>
         </li>
         <li>
-          <img src="https://s3.ax1x.com/2020/12/25/rWsJ8P.jpg" height="350">
+          <img src="img/banner2.jpg" height="350">
           <div class="am-slider-desc">这是标题标题标题标题标题标题标题1</div>
         </li>
         <li>
-          <img src="https://s3.ax1x.com/2020/12/25/rWstv8.jpg" height="350">
+          <img src="img/banner3.jpg" height="350">
           <div class="am-slider-desc">这是标题标题标题标题标题标题标题2</div>
         </li>
         <li>
-          <img src="https://s3.ax1x.com/2020/12/25/rWs34I.jpg" height="350">
+          <img src="img/8bb6f14ec16c1ea8c2865a3fe54f1180.jpg" height="350">
           <div class="am-slider-desc">这是标题标题标题标题标题标题标题3</div>
         </li>
     </ul>
@@ -96,7 +130,7 @@
    >
  <ul class="am-tabs-nav am-cf">
      <li class="am-active"><a href="[data-tab-panel-0]">偶像</a></li>
-     <li><a href="[data-tab-panel-1]">女优</a></li>
+      <li><a href="[data-tab-panel-1]">女优</a></li>
      <li><a href="[data-tab-panel-2]">演员</a></li>
  </ul>
  <div class="am-tabs-bd">
@@ -104,8 +138,8 @@
       <ul class="g" data-am-widget="gallery"  data-am-gallery="{ pureview: true }" >
         <li>
           <div class="am-gallery-item">
-              <a href="https://s3.ax1x.com/2020/12/25/rWsy80.png">
-                <img src="https://s3.ax1x.com/2020/12/25/rWsy80.png" width="180" height="250"  alt="远方 有一个地方 那里种有我们的梦想"/>
+              <a href="img/ANd9GcTr0YSD92uVAV1r1W9r5n8Trrbm-IH-59rfvQ&usqp=CAU.png">
+                <img src="img/ANd9GcTr0YSD92uVAV1r1W9r5n8Trrbm-IH-59rfvQ&usqp=CAU.png" width="180" height="250"  alt="远方 有一个地方 那里种有我们的梦想"/>
                 <p id="title">与田祐希</p>
                   
               </a>
@@ -113,32 +147,32 @@
         </li>
         <li>
           <div class="am-gallery-item">
-              <a href="https://s3.ax1x.com/2020/12/25/rWsy80.png">
-                <img src="https://s3.ax1x.com/2020/12/25/rWsy80.png" width="180" height="250"  alt="某天 也许会相遇 相遇在这个好地方"/>
+              <a href="img/p2565165982.jpg">
+                <img src="img/p2565165982.jpg" width="180" height="250"  alt="某天 也许会相遇 相遇在这个好地方"/>
                 <p id="title">与田祐希</p>
               </a>
           </div>
         </li>
         <li>
           <div class="am-gallery-item">
-              <a href="https://s3.ax1x.com/2020/12/25/rWsMHH.jpg">
-                <img src="https://s3.ax1x.com/2020/12/25/rWsMHH.jpg" width="180" height="250"  alt="不要太担心 只因为我相信"/>
+              <a href="img/Screenshot_20201210-231326.png">
+                <img src="img/Screenshot_20201210-231326.png" width="180" height="250"  alt="不要太担心 只因为我相信"/>
                 <p id="title">与田祐希</p>
               </a>
           </div>
         </li>
         <li>
           <div class="am-gallery-item">
-              <a href="https://s3.ax1x.com/2020/12/25/rWsaDg.jpg">
-                <img src="https://s3.ax1x.com/2020/12/25/rWsaDg.jpg" width="180" height="250"  alt="终会走过这条遥远的道路"/>
+              <a href="img/Screenshot_20201210-233701.png">
+                <img src="img/Screenshot_20201210-233701.png" width="180" height="250"  alt="终会走过这条遥远的道路"/>
                 <p id="title">与田祐希</p>
               </a>
           </div>
         </li>
         <li>
           <div class="am-gallery-item">
-              <a href="https://s3.ax1x.com/2020/12/25/rWsUKS.jpg">
-                <img src="https://s3.ax1x.com/2020/12/25/rWsUKS.jpg" width="180" height="250"  alt="远方 有一个地方 那里种有我们的梦想"/>
+              <a href="img/桥本奈奈末1.jpg">
+                <img src="img/桥本奈奈末1.jpg" width="180" height="250"  alt="远方 有一个地方 那里种有我们的梦想"/>
                 <p id="title">与田祐希</p>
                   
               </a>
@@ -146,24 +180,24 @@
         </li>
         <li>
           <div class="am-gallery-item">
-              <a href="https://s3.ax1x.com/2020/12/25/rWsUKS.jpg">
-                <img src="https://s3.ax1x.com/2020/12/25/rWsUKS.jpg" width="180" height="250"  alt="某天 也许会相遇 相遇在这个好地方"/>
+              <a href="img/爱理36.jpg">
+                <img src="img/爱理36.jpg" width="180" height="250"  alt="某天 也许会相遇 相遇在这个好地方"/>
                 <p id="title">与田祐希</p>
               </a>
           </div>
         </li>
         <li>
           <div class="am-gallery-item">
-              <a href="https://s3.ax1x.com/2020/12/25/rWssCq.png">
-                <img src="https://s3.ax1x.com/2020/12/25/rWssCq.png" width="180" height="250"  alt="不要太担心 只因为我相信"/>
+              <a href="img/爱理37.jpg">
+                <img src="img/爱理37.jpg" width="180" height="250"  alt="不要太担心 只因为我相信"/>
                 <p id="title">与田祐希</p>
               </a>
           </div>
         </li>
         <li>
           <div class="am-gallery-item">
-              <a href="https://s3.ax1x.com/2020/12/25/rWsGCt.jpg">
-                <img src="https://s3.ax1x.com/2020/12/25/rWsGCt.jpg" width="180" height="250"  alt="终会走过这条遥远的道路"/>
+              <a href="img/Screenshot_20201210-233701.png">
+                <img src="img/Screenshot_20201210-233701.png" width="180" height="250"  alt="终会走过这条遥远的道路"/>
                 <p id="title">与田祐希</p>
               </a>
           </div>
@@ -312,7 +346,7 @@
      </div>
  </div>
 </div>
-<hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
+<hr data-am-widget="divider" class="am-divider am-divider-default" />
 
   
 
@@ -373,7 +407,7 @@ class="am-modal am-modal-no-btn am-switch-mode-m am-switch-mode-m-default">
 <![endif]-->
 
 
-
+<script src="assets/js/app.js"></script>
 <script src="assets/js/amazeui.min.js"></script>
 </body>
 </html>
